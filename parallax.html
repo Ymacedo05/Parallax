@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body,html{
+            border: 1px dashed green;
+            height: 100%;
+            
+        }
+        .b2,.b4{
+            padding: 60px 80px;
+        }
+        h2{
+            text-transform: uppercase;
+            text-align: center;
+            padding: 40px 15px 10px 15px;
+        }
+        p{
+            text-align: justify;
+            padding: 18px ;
+        }
+
+        .box{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover; /*faz aimagem ocupar 100 do espaço.*/
+            background-attachment: fixed; /*Fixa a imagem*/
+            opacity: 0.8; /*Deixa a imagem branca, varia de 0 à 1. Quanto menor o número,mas branco fica.*/
+            position: relative;
+            background-position: center;
+            
+        }
+
+        .b1{
+            background-image: url("imagens_parallax/imagem1.jpg");
+        }
+        .b3{
+            background-image: url("imagens_parallax/imagem2.jpg");
+        }
+        .b5{
+            background-image: url("imagens_parallax/imagem3.jpg");
+        }
+        .b6{
+            background-image: url("imagens_parallax/imagem4.jpg");
+        }
+
+        .titulo{
+            background: orange;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            top: 45%;
+           
+            
+        }
+        .titulo .titulo-span{
+            padding: 10px;
+            font-size: 2em;
+            text-transform:uppercase;
+            background-color: black;
+            color: white;
+            letter-spacing: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box b1" >
+        <div class="titulo">
+            <span class="titulo-span">
+                Passeio de balões
+            </span>
+        </div>
+    </div>
+    <div class="b2" >
+        <h2>Parallax</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem mollitia quod voluptas sunt officiis totam quasi vitae suscipit vel omnis voluptatibus asperiores quia id similique itaque dolorum, nam laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, sunt aliquid, nisi aperiam, impedit praesentium voluptatum earum cum error natus quibusdam molestiae debitis culpa deleniti odio non voluptatem? Recusandae, dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum error est a vitae quam molestiae, distinctio nesciunt architecto! Repudiandae nobis aliquam nam inventore temporibus, rerum expedita tenetur quia veniam?</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem mollitia quod voluptas sunt officiis totam quasi vitae suscipit vel omnis voluptatibus asperiores quia id similique itaque dolorum, nam laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, sunt aliquid, nisi aperiam, impedit praesentium voluptatum earum cum error natus quibusdam molestiae debitis culpa deleniti odio non voluptatem? Recusandae, dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum error est a vitae quam molestiae, distinctio nesciunt architecto! Repudiandae nobis aliquam nam inventore temporibus, rerum expedita tenetur quia veniam?</p>
+    </div>
+    <div class="box b3" >
+        <div class="titulo">
+            <span class="titulo-span">
+                Pegando a estrada
+            </span>
+        </div>
+    </div>
+    <div class="b4" >
+        <h2>Parallax</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem mollitia quod voluptas sunt officiis totam quasi vitae suscipit vel omnis voluptatibus asperiores quia id similique itaque dolorum, nam laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, sunt aliquid, nisi aperiam, impedit praesentium voluptatum earum cum error natus quibusdam molestiae debitis culpa deleniti odio non voluptatem? Recusandae, dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum error est a vitae quam molestiae, distinctio nesciunt architecto! Repudiandae nobis aliquam nam inventore temporibus, rerum expedita tenetur quia veniam?</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem mollitia quod voluptas sunt officiis totam quasi vitae suscipit vel omnis voluptatibus asperiores quia id similique itaque dolorum, nam laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, sunt aliquid, nisi aperiam, impedit praesentium voluptatum earum cum error natus quibusdam molestiae debitis culpa deleniti odio non voluptatem? </p>
+    </div>
+    <div class="box b5" >
+        <div class="titulo">
+            <span class="titulo-span">
+                Pôr do sol
+            </span>
+        </div>
+    </div>
+    <div class="box b6" >
+        <div class="titulo">
+            <span class="titulo-span">
+                montanhas
+            </span>
+        </div>
+    </div>
+</body>
+</html>
